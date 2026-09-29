@@ -5,10 +5,12 @@ import { cn } from "@/lib/utils";
 // Bento spans keyed by category id — two large cards on top, two even
 // cards beneath. Falls back to a single column on mobile.
 const SPANS: Record<string, string> = {
-  "01": "md:col-span-4",
-  "02": "md:col-span-2",
-  "03": "md:col-span-3",
-  "04": "md:col-span-3",
+  "01": "md:col-span-3",
+  "02": "md:col-span-3",
+  "03": "md:col-span-4",
+  "04": "md:col-span-2",
+  "05": "md:col-span-3",
+  "06": "md:col-span-3",
 };
 
 const container = {

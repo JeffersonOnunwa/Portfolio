@@ -5,8 +5,8 @@ export const SITE = {
   intro: "Hi, I'm Jefferson Onunwa.",
   tagline:
     "I craft fast, scalable, and user-friendly web applications using React and TypeScript — combining modern frontend frameworks with strongly-typed, robust architectural solutions.",
-  email: "jeffersiconunwa@gmail.com",
-  resumeUrl: "/Jefferson_Onunwa_Frontend_Engineer.pdf",
+  email: "jeffersononunwa@gmail.com",
+  resumeUrl: "/Jefferson_Onunwa_Frontend_Developer_CV.pdf",
   photo: "/avatar-1-.jpg",
 };
 
@@ -42,6 +42,7 @@ export const skillCategories = [
       "Building robust, type-safe client systems and accessible web interfaces.",
     skills: [
       "React",
+      "Next.js",
       "TypeScript",
       "JavaScript (ES6+)",
       "HTML5 & CSS3",
@@ -50,13 +51,27 @@ export const skillCategories = [
   },
   {
     id: "02",
-    title: "State & UI Architecture",
+    title: "Styling & UI Architecture",
     description:
-      "Managing complex data flows and orchestrating fluid, interactive user experiences.",
-    skills: ["Redux", "TanStack Table", "Framer Motion", "Shadcn / Radix"],
+      "Managing and orchestrating fluid, interactive user experiences.",
+    skills: ["Tailwind CSS", "Framer Motion", "Bootstrap", "Figma", "Shadcn / Radix", "Semantic / Accessible Markup", "Responsive & Mobile-first Design"],
   },
   {
     id: "03",
+    title: "State Management & Data Handling",
+    description:
+      "Implementing predictable state flows and efficient data pipelines.",
+    skills: ["Redux", "TanStack Table", "REST API integration", "CRUD-driven interfaces", "Async Data Handling" ],
+  },
+  {
+    id: "04",
+    title: "Tools & Practices for Scalable Code",
+    description:
+      "Ensuring maintainable, performant, and collaborative codebases.",
+    skills: ["Git/GitHub", "npm", "Vite / Bun", "Vercel / Netlify Deployment", "Cross-browser Compatibility", "Performance Optimization", "Agile Workflows"],
+  },
+  {
+    id: "05",
     title: "AI & Emerging Tech",
     description:
       "Integrating large language models and automating workflows for intelligent applications.",
@@ -68,7 +83,7 @@ export const skillCategories = [
     ],
   },
   {
-    id: "04",
+    id: "06",
     title: "Engineering Leadership",
     description:
       "Driving project execution through technical mentorship, code review, and agile problem solving.",
@@ -83,7 +98,7 @@ export const skillCategories = [
 
 export const learningTrajectory = {
   active: ["Next.js"],
-  queued: ["Node.js", "Go", "Rust", "Cloud Infrastructure"],
+  queued: ["Node.js", "Go", "Rust"],
 };
 
 export const PROJECTS_META = {
@@ -280,10 +295,10 @@ export const CONTACT_CHANNELS = {
   whatsapp:
     "https://wa.me/2348124652951?text=Hi%20Jefferson%2C%20I%20just%20reviewed%20your%20portfolio.%20I%27d%20love%20to%20connect%20regarding%20a%20potential%20opportunity.",
   calendly: "https://calendly.com/jeffersiconunwa/30min",
-  directEmail: "jeffersiconunwa@gmail.com",
+  directEmail: "jeffersononunwa@gmail.com",
 };
 
-export const WEB3FORMS_ACCESS_KEY = "7bbb2b48-19ba-4110-a4e1-548417948fda";
+export const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
 export const FOOTER_TEXT = {
   signature:
@@ -300,11 +315,11 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-  { label: "GitHub", href: "https://github.com/Am-Jheffy", icon: "github" },
+  { label: "GitHub", href: "https://github.com/JeffersonOnunwa", icon: "github" },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/jefferson-onunwa/",
     icon: "linkedin",
   },
-  { label: "Twitter", href: "https://x.com/Am_Jheffy", icon: "twitter" },
+  { label: "Twitter", href: "https://x.com/JeffersonOnunwa", icon: "twitter" },
 ] as const;
